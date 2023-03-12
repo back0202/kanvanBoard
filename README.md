@@ -1,7 +1,8 @@
 # 칸반보드 만들기
 
-## 소개
+## 사용기술
+React, styled-components, axios
 
-## 회고
 
-> https://www.notion.so/240be1a248894730a57bc1bce5743750
+
+
