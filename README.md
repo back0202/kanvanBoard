@@ -26,6 +26,10 @@ kanbanBoadr라는 배열에 객체를 넣고 status라는 프로퍼티를 너어
 (json server에서 중첩? 이 안돼는거 같아서 이 방법사용)
 
 
+
+
+
+
 2. 각 상태별 순서를 어떻게 지정할것인가
 
 https://velog.io/@server30sopt/DB%EC%97%90%EC%84%9C-%EC%83%81%EB%8C%80%EC%A0%81-%EC%9C%84%EC%B9%98-%EA%B0%92%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%B4-%EB%93%9C%EB%9E%98%EA%B7%B8-%EC%95%A4-%EB%93%9C%EB%A1%AD%EC%9C%BC%EB%A1%9C-%EC%9D%B8%ED%95%9C-%EC%88%9C%EC%84%9C-%EB%B3%80%EA%B2%BD-%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0
