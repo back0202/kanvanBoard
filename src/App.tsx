@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components';
+import CardList from './components/CardList';
+import useApp from './hooks/useApp';
+
+const Div = styled.div`
+  display:flex;
+  margin-top: 10px;
+  justify-content:space-around;
+  `
 
 function App() {
+  const { changeCanvanboard, canvanboard } = useApp()
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Div>
+      <CardList title={"todo"} statusList={canvanboard.todo} canvanboard={canvanboard} changeCanvanboard={changeCanvanboard} />
+      <CardList title={"doing"} statusList={canvanboard.doing} canvanboard={canvanboard} changeCanvanboard={changeCanvanboard} />
+      <CardList title={"done"} statusList={canvanboard.done} canvanboard={canvanboard} changeCanvanboard={changeCanvanboard} />
+    </Div>
   );
 }
 
